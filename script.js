@@ -1,13 +1,14 @@
 function firstChar(text) {
   // your code here
-	 if(str===" " || str===""){
+	 if(text===" " || text===""){
         return "";
     }
-    if(str!=""){
-        str=str.replace(/\s/g, "");
-        return str.charAt(0);
+    if(text!=""){
+        text=text.replace(/\s/g, "");
+        return text.charAt(0);
     }
 }
+
 
 // Do not change the code below
 //Uncomment the following line to show the prompt popup
